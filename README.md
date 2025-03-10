@@ -65,18 +65,6 @@ npm install whatsapp-web.js qrcode-terminal google-spreadsheet dotenv
    - Click "Share"
 3. Add new row the `sheet_id` after `universe_domain` environment variables in the `credentials.json` file
 
-### 5. Configure Environment Variables
-
-Create a `.env` file in the root directory with the following variables:
-
-```
-SPREADSHEET_ID=your_spreadsheet_id
-SHEET_NAME=Students
-CREDENTIALS_PATH=./credentials.json
-```
-
-Place your downloaded service account JSON key file in the project root and rename it to `credentials.json` (or update the path in your `.env` file).
-
 ## Usage
 
 ### Starting the Bot
@@ -84,7 +72,7 @@ Place your downloaded service account JSON key file in the project root and rena
 Run the bot with:
 
 ```bash
-node index.js
+npm run dev
 ```
 
 Scan the displayed QR code with WhatsApp to authenticate the bot.

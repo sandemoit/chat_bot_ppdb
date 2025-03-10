@@ -63,6 +63,7 @@ npm install whatsapp-web.js qrcode-terminal google-spreadsheet dotenv
    - Add the service account email (found in the `client_email` field of your JSON key file)
    - Give it "Editor" permission
    - Click "Share"
+3. Add new row the `sheet_id` after `universe_domain` environment variables in the `credentials.json` file
 
 ### 5. Configure Environment Variables
 

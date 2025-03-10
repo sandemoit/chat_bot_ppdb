@@ -1,0 +1,22 @@
+{
+  "name": "chat_bot_ppdb",
+  "version": "1.0.0",
+  "description": "chat bot ppdb via whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat_bot",
+    "ppdb"
+  ],
+  "author": "sansan",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "google-spreadsheet": "^3.3.0",
+    "moment": "^2.30.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

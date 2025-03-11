@@ -14,7 +14,7 @@ A WhatsApp bot for student registration that automatically stores data in Google
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v10 or higher)
 - NPM
 - Google Cloud account
 - Google Sheets API access
@@ -32,8 +32,7 @@ cd wa-bot-ppdb
 ### 2. Install dependencies
 
 ```bash
-npm init -y
-npm install whatsapp-web.js qrcode-terminal google-spreadsheet dotenv
+npm install
 ```
 
 ### 3. Configure Google Cloud
@@ -109,8 +108,15 @@ Asal Sekolah: SMP Contoh
 
 ```
 wa-bot-ppdb/
+├── config/           # Configuration files
+│   ├── credentials.js # Google service account credentials
 ├── index.js          # Main bot application
-├── credentials.json  # Google service account credentials
+├── services/         # Service layer
+│   ├── registrationService.js # Registration service
+│   ├── registrationService.js # Registration service
+│   └── validationService.js # Google Sheets service
+├── utils/            # Utility functions
+│   └── helpers.js     # Helper functions
 └── README.md         # This file
 ```
 

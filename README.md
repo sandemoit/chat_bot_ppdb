@@ -14,7 +14,7 @@ A WhatsApp bot for student registration that automatically stores data in Google
 
 ## Prerequisites
 
-- Node.js (v10 or higher)
+- Node.js (v18 or higher)
 - NPM
 - Google Cloud account
 - Google Sheets API access
@@ -25,7 +25,7 @@ A WhatsApp bot for student registration that automatically stores data in Google
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/wa-bot-ppdb.git
+git clone https://github.com/sandemoit/wa-bot-ppdb.git
 cd wa-bot-ppdb
 ```
 
